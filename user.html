@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&family=Shalimar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="user.css">
+    <title>User</title>
+</head>
+<body>
+    <!-- <h1>Hello, mr</h1>
+    <button>Log out</button> -->
+    <div class= "general">
+        <div class = "head">
+            <!-- <h3>Hello,mr!<a  id = "exit" href="login.html">exit</a></h3> -->
+        </div>
+        <hr></hr>
+        <h1>User info</h1>
+        <div class="form">
+            <div class = "form1">
+            <label for = "first">First Name:</label><br>
+            <span class="textErrorName">Input is incorrect</span>
+            <input type="text" name="first" id="firstName" value="" maxlength="20" required><br>
+            <label for="data">Year of birth:</label><br>
+            <span class="textErrorBirt">Input is incorrect</span>
+            <input type="date" name="data" id="dateBrith" value="" min="1900-01-01" max="2021-11-03" required><br>
+            <label for="phone">Phone number:</label><br>
+            <span class="textErrorPhone">Input is incorrect</span>
+            <input type="text" name="phone" id="phone" value="" ><br>
+        </div>
+        <div class="form2">
+            <label for="last">Last Name:</label><br>
+            <span class="textErrorLastName">Input is incorrect</span>
+            <input type="text" name="last" id="lastName" value="" maxlength="20" required><br>
+            <label for="gender">Gender</label><br>
+            <span class="textErrorGender">Input is incorrect</span>
+            <select id="gender" name="gender" size=""  required>
+                <option selected disabled value="0"></option>
+                <option value="1">male</option>
+                <option value="2">female</option>
+            </select><br>
+            <label for="skype">Skype:</label><br>
+            <input  type = "text" name="skype" id="skype" value="">
+        </div>
+    </div>
+    <button class="btnSave">Save</button>
+    
+    </div>
+    </div>
+
+    <script src = "user.js" src="/path/to/js.cookie.js">
+    </script>
+</body>
+</html>
