@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Road Rage', cursive;
+}
+body{
+    background: url(image/fon-user.jpg);
+    font-size: 20px;
+}
+.general{
+    height: 500px;
+    width: 800px;
+    border-radius: 10%;
+}
+.head{
+    margin: auto;
+    width: 80%;
+    
+}
+.form{
+    display: flex;
+    margin: auto;
+    height: 160px;
+    width: 80%;
+   
+}
+label{
+    color: rgb(11, 62, 230);
+}
+h1{
+    color: rgb(11, 62, 230);
+    text-align: center;
+}
+input{
+    display: inline-block;
+    margin-bottom:10px;
+    height: 20px;
+    width: 250px;
+    
+}
+hr{
+    width: 80%;
+}
+a{
+    display: block;
+    margin-left: 600px;
+    color:blueviolet;
+}
+select{
+    margin-bottom:10px;
+    height: 25px;
+    width: 260px;
+}
+.form1, .form2{
+    position: relative;
+    margin-left: 20px;
+    height: 150px;
+    width: 300px;
+}
+.user, h3{
+    text-align:right;
+}
+.btnSave{
+    display: block;
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 30px;
+    width: 50%;
+    font-size: 20px;
+    background: linear-gradient(45deg,#EC44B0, #1168E2, #11E4B5);
+}
+.textErrorName, .textErrorLastName, .textErrorBirt, .textErrorGender, .textErrorPhone{
+    position: absolute;
+    display: none; 
+    margin-top: -20px;
+    margin-left: 150px; 
+    color:red;
+}
+

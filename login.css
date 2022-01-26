@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Road Rage', cursive;
+  
+}
+body{
+    background: url(image/fon.jpg); 
+}
+.general{
+    margin: auto;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    border-radius: 20%;
+    height: 400px;
+    width: 600px;
+}
+.form{
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    height: 20s0px;
+    width: 450px;
+    
+    font-size: 20px;
+}
+input{
+    height: 40px;
+    width: 450px;
+    font-size: 20px;
+}
+#btnSign{
+    margin-top: 20px;
+    height: 40px;
+    width: 450px;
+    font-size: 20px;
+    color: #fafafa;
+    background: linear-gradient(21deg, #dd03e4, #5611ec);
+    border: 1px solid white;
+    border-radius: 20px;
+}
+label{
+    color: rgb(105, 5, 105);
+}
+
+h1{
+    color: rgb(107, 26, 107);
+    text-align: center;
+}
+input:invalid {
+    border-radius: 20px;
+    border: 2px solid rgb(255, 0, 140);
+  }
+  
+input:valid {
+    border-radius: 20px;
+    border: 2px solid rgb(56, 2, 56);
+  }
+.textRed, .textRedPass{
+    position: absolute;
+    display: none;
+    margin-left: 300px; 
+    color:red;
+    
+}
